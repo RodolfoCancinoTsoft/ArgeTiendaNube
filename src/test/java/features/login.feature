@@ -7,16 +7,16 @@ Feature: Ingreso y navegación dentro de tienda nube
     Given Cuando ingreso a tienda nube
     And Presiono Login
     And Ingreso mi Mail
-    And Ingreso mi contraseña erronea
-    When Presiono el botón Ingreso a mi Tienda
-    Then Saldra un mensaje Tu email o contraseña son incorrectos. Revisalos y volvé a intentar
+    And Ingreso mi contrasena erronea
+    When Presiono el boton Ingreso a mi Tienda
+    Then Saldra un mensaje Tu email o contrasena son incorrectos. Revisalos y volvé a intentar
 
   Scenario: Ingresar con un usuario o clave correcto
     Given Cuando ingreso a tienda nube
     And Presiono Login
     And Ingreso mi Mail
-    And Ingreso mi contraseña correcta
-    When Presiono el botón Ingreso a mi Tienda
+    And Ingreso mi contrasena correcta
+    When Presiono el boton Ingreso a mi Tienda
     Then Saldra un mensaje Inicio
 
 

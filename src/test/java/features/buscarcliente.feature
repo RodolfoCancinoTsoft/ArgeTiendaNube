@@ -5,9 +5,9 @@ Feature: Buscar cliente en tienda nube
     Given Cuando ingreso a tienda nube
     And Presiono Login
     And Ingreso mi Mail
-    And Ingreso mi contraseña correcta
-    And Presiono el botón Ingreso a mi Tienda
-    And Presiono boton de ventas
-    When ingreso un nombre a buscar
+    And Ingreso mi contrasena correcta
+    And Presiono el boton Ingreso a mi Tienda
+    When Presiono boton de ventas
+    And ingreso un nombre a buscar
     And Presiono Enter
     Then Saldran datos del cliente que se busco
